@@ -1,0 +1,29 @@
+.contenedor {
+	background-color: white;
+	border: 5px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+	font-size: 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item:nth-child(1) {
+	background-color: red;
+}
+
+.item:nth-child(2) {
+	background-color: blue;
+}
+
+.item:nth-child(3) {
+	background-color: green;
+}
